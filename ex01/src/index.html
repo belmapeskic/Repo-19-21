@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset = "UTF-8">
+    <title>Virtual Keyboard</title>
+    <script src="..//src/index.js"></script>
+    <link rel="stylesheet" href="../src/index.css">
+</head>
+
+<body>
+<h1 style = "text-align:left;"> Virtual Keyboard</h1>
+
+    <div class="keyboard">
+        <div class = "row1">
+            <button type="button" class="btn1" onclick="input(btn1)">1</button>
+            <button onclick="input(2)">2</button>
+            <button onclick="input(3)">3</button>
+            <button onclick="input(4)">4</button>
+            <button onclick="input(5)">5</button>
+            <button onclick="input(6)">6</button>
+            <button onclick="input(7)">7</button>
+            <button onclick="input(8)">8</button>
+            <button onclick="input(9)">9</button>
+            <button onclick="input(0)">0</button>
+            <button type="button" class="backspace backspace--wide" onclick="input(backspace)">Back Space</button>
+        </div> 
+        <div class = "row2">
+            <button onclick="input(q)">q</button>
+            <button onclick="input(w)">w</button>
+            <button onclick="input(e)">e</button>
+            <button onclick="input(r)">r</button>
+            <button onclick="input(t)">t</button>
+            <button onclick="input(z)">z</button>
+            <button onclick="input(u)">u</button>
+            <button onclick="input(i)">i</button>
+            <button onclick="input(o)">o</button>
+            <button onclick="input(p)">p</button>
+        </div>   
+        <div class = "row3">
+            <button onclick="input(a)">a</button>
+            <button onclick="input(s)">s</button>
+            <button onclick="input(d)">d</button>
+            <button onclick="input(f)">f</button>
+            <button onclick="input(g)">g</button>
+            <button onclick="input(h)">h</button>
+            <button onclick="input(j)">j</button>
+            <button onclick="input(k)">k</button>
+            <button onclick="input(l)">l</button>
+            <button type="button" class="capslock capslock--wide" onclick="input(capslock)">Caps Lock</button>
+        </div>
+        <div class = "row4">
+            <button onclick="input(y)">y</button>
+            <button onclick="input(x)">x</button>
+            <button onclick="input(c)">c</button>
+            <button onclick="input(v)">v</button>
+            <button onclick="input(b)">b</button>
+            <button onclick="input(n)">n</button>
+            <button onclick="input(m)">m</button>
+            <button onclick="input(-)">-</button>
+            <button onclick="input(_)">_</button>
+            <button type="button" class="shift shift--wide" onclick="input(enter)">Shift</button>
+        </div>
+        <div class = "row5">
+            <button type="button" class="enter enter--wide" onclick="input(enter)">OK</button>
+            <button type="button" class="space space--extra-wide" onclick="input(space)">Space</button>
+        </div> 
+    </div>  
+</body>
